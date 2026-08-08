@@ -16,7 +16,7 @@ Your objective is to pass the explicit **"AI Prompt Challenges"** directly to an
 ## Module 1: Data acquisition
 As an example, we will work with a dataset that contains EEG signals recorded from participants playing emotionally different computer games (boring, calm, horror, funny). We will download and analyze data from participant S01.
 
-Student AI prompt challenge
+Student AI prompt challenge - using this dataset: https://www.kaggle.com/datasets/wajahat1064/emotion-recognition-using-eeg-and-computer-games?resource=download/
 
 Copy and paste the code block from the cell below and the following text block into your AI assistant:
 
