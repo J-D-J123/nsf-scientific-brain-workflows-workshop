@@ -1,0 +1,12 @@
+Created 10 datasets, each with 20,000 data points.
+
+Running SEQUENTIAL analysis (one dataset at a time, one core)...
+  Sequential time: 0.719 seconds
+
+Running PARALLEL analysis (multiple datasets at once, multiple cores)...
+  Detected 12 CPU core(s) available.
+  Parallel time: 0.175 seconds
+
+Speedup factor: 4.10x
+
+[ERROR while running script: [Errno 2] No such file or directory: '/mnt/user-data/outputs/sequential_vs_parallel.png']

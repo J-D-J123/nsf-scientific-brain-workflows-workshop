@@ -1,0 +1,21 @@
+Simulated dataset shape: (100000, 16) (100,000 time points x 16 channels)
+Total values: 1,600,000
+
+CSV save time:  1.175s
+NPY save time:  0.010s
+
+--- File size comparison ---
+CSV file size:  40,799,717 bytes  (38.91 MB)
+NPY file size:  12,800,128 bytes  (12.21 MB)
+CSV is 3.19x larger than NPY on disk
+
+--- Load time comparison ---
+CSV load time:  0.481s
+NPY load time:  0.004s
+Loading from CSV took 123.1x longer than NPY
+
+Both files loaded back correctly and match the original data.
+
+--- When to choose each format ---
+CSV: use when you need the file to be human-readable, opened in Excel/Google Sheets, shared with non-programmers, or version-controlled as readable text (e.g. small config tables, summary results).
+NPY (or HDF5 for very large/complex datasets): use for large numeric datasets that only your own analysis code will read, where load speed and disk space matter more than human-readability — e.g. raw sensor or recording data feeding into a NumPy/Python analysis pipeline.

@@ -1,0 +1,51 @@
+Starting download of 10 chunks...
+
+Requesting chunk 1/10...
+  Chunk 1: SUCCESS after 0 retries
+
+Requesting chunk 2/10...
+  Chunk 2: SUCCESS after 0 retries
+
+Requesting chunk 3/10...
+  Chunk 3: SUCCESS after 0 retries
+
+Requesting chunk 4/10...
+  Chunk 4: SUCCESS after 0 retries
+
+Requesting chunk 5/10...
+  Chunk 5: SUCCESS after 0 retries
+
+Requesting chunk 6/10...
+  Chunk 6: SUCCESS after 0 retries
+
+Requesting chunk 7/10...
+  Chunk 7: SUCCESS after 0 retries
+
+Requesting chunk 8/10...
+  Chunk 8: attempt 1 failed, retrying in 1s...
+  Chunk 8: SUCCESS after 1 retry
+
+Requesting chunk 9/10...
+  Chunk 9: SUCCESS after 0 retries
+
+Requesting chunk 10/10...
+  Chunk 10: SUCCESS after 0 retries
+
+==================================================
+DOWNLOAD SUMMARY
+==================================================
+  Chunk  1: SUCCESS   (retries needed: 0)
+  Chunk  2: SUCCESS   (retries needed: 0)
+  Chunk  3: SUCCESS   (retries needed: 0)
+  Chunk  4: SUCCESS   (retries needed: 0)
+  Chunk  5: SUCCESS   (retries needed: 0)
+  Chunk  6: SUCCESS   (retries needed: 0)
+  Chunk  7: SUCCESS   (retries needed: 0)
+  Chunk  8: SUCCESS   (retries needed: 1)
+  Chunk  9: SUCCESS   (retries needed: 0)
+  Chunk 10: SUCCESS   (retries needed: 0)
+--------------------------------------------------
+Total chunks: 10
+Succeeded: 10
+Failed permanently: 0
+Average retries per successful chunk: 0.1
