@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# lab3 - Personal data
+pre-workshop-prep/lab3/Colab_03_FABRIC_CI_Access.ipynb
+pre-workshop-prep/lab3/Notebook_03_LabManual.pdf
+pre-workshop-prep/lab3/README.md
